@@ -1,6 +1,6 @@
 ﻿namespace Photo_Organizer
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -85,7 +85,6 @@
             this.textBoxSource.Name = "textBoxSource";
             this.textBoxSource.Size = new System.Drawing.Size(196, 20);
             this.textBoxSource.TabIndex = 4;
-            this.textBoxSource.Text = "C:\\Users\\patrick.tedeschi\\Desktop\\Test";
             // 
             // textBoxDestination
             // 
@@ -93,7 +92,6 @@
             this.textBoxDestination.Name = "textBoxDestination";
             this.textBoxDestination.Size = new System.Drawing.Size(196, 20);
             this.textBoxDestination.TabIndex = 5;
-            this.textBoxDestination.Text = "C:\\Users\\patrick.tedeschi\\Desktop\\Result";
             // 
             // buttonProcess
             // 

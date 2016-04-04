@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Photo_Organizer
 {
-    class Photo
+    internal class Photo
     {
-        string name;
-        string path;
-        DateTime dateTaken;
+        private const string pattern = "yyyy.MM.dd";
+        private string name;
+        private string path;
+        private DateTime dateTaken;
+        private string dateTakenString;
 
         public string Name
         {
@@ -48,6 +46,14 @@ namespace Photo_Organizer
             set
             {
                 dateTaken = value;
+            }
+        }
+
+        public string DateTakenString
+        {
+            get
+            {
+                return dateTaken.ToString(pattern);
             }
         }
     }
